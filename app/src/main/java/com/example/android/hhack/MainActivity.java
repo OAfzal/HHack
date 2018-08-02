@@ -1,28 +1,18 @@
 package com.example.android.hhack;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
-
-import java.util.ArrayList;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.search_result_view);
+        setContentView(R.layout.activity_main);
 
+        Intent sample = new Intent(this, QuickstartSample.class);
+        startActivity(sample);
 
-        ArrayList<Person> People = new ArrayList<Person>();
-
-
-
-
-        ListView listView = (ListView) findViewById(R.id.list);
-
-        PersonAdapter personAdapter = new PersonAdapter(getApplicationContext(),People);
-
-        listView.setAdapter(personAdapter);
     }
 }

@@ -3,11 +3,10 @@ package com.example.android.hhack;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ListView;
-
-import java.util.ArrayList;
+import android.widget.EditText;
 
 public class SearchActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -15,7 +14,6 @@ public class SearchActivity extends AppCompatActivity {
 
         setContentView(R.layout.search_layout);
 
-
-
+        EditText name = findViewById(R.id.query_name);
     }
 }

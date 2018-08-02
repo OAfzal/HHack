@@ -4,7 +4,35 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/query_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name" />
 
+    <Spinner
+        android:layout_margin="15dp"
+        android:id="@+id/query_nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
 
+    <Spinner
+        android:layout_margin="15dp"
+        android:id="@+id/query_organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Spinner
+        android:layout_margin="15dp"
+        android:id="@+id/query_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_margin="15dp"
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
 
 </LinearLayout>
