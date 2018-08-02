@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "726604594713",
+    "firebase_url": "https://hhack-e0f79.firebaseio.com",
+    "project_id": "hhack-e0f79",
+    "storage_bucket": "hhack-e0f79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726604594713:android:99d109270a5d2beb",
+        "android_client_info": {
+          "package_name": "com.example.android.hhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726604594713-j1348i47uh0f4s07u0n500hk0i2hk8hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAlSnMLmaKgVaghDMIaL6KuJGxXACtwiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

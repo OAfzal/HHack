@@ -14,6 +14,6 @@ public class SearchActivity extends AppCompatActivity {
 
         setContentView(R.layout.search_layout);
 
-        EditText name = findViewById(R.id.query_name);
+
     }
 }

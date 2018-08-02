@@ -15,7 +15,7 @@
         android:src="@drawable/logo" />
 
     <Button
-        android:id="@+id/query"
+        android:id="@+id/volunteers_login"
         android:layout_width="251dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -26,11 +26,11 @@
         android:text="LOG IN" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/search"
         android:layout_width="253dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/query"
+        android:layout_alignStart="@+id/volunteers_login"
         android:layout_marginBottom="75dp"
         android:text="Search for people" />
 
