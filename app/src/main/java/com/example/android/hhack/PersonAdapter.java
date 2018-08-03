@@ -35,7 +35,7 @@ public class PersonAdapter extends ArrayAdapter<Person> {
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-        imageView.setImageResource(currentPerson.getThumbnail());
+        imageView.setImageResource(currentPerson.getPictureId());
 
 
         //Setting up the person's name

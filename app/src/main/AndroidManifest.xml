@@ -21,6 +21,10 @@
         </activity>
 
         <activity android:name=".QuickstartSample"></activity>
+        <activity android:name=".SearchActivity" android:label="Seach"></activity>
+        <activity android:name=".LoginActivity" android:label="Login"></activity>
+        <activity android:name=".RegisterPerson" android:label="Register Missing Person"></activity>
+        <activity android:name=".SearchResultsActivity" android:label="Search Results"></activity>
     </application>
 
 </manifest>
